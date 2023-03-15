@@ -85,7 +85,7 @@ const handleSubmit = async (e) => {
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
- const response = await fetch('http://localhost:5173/', {
+ const response = await fetch('http://localhost:5721/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
